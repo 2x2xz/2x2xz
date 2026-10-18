@@ -31,10 +31,6 @@ I'm interested in AI agents, machine learning, and AI-powered applications — e
 
 <br />
 
-<img src="https://raw.githubusercontent.com/2x2xz/2x2xz/9c085e04117715c595c1a3c8b0ad81b3c952535c/assets/focus.svg" alt="Focus: AI agents with tools, retrieval and memory; machine learning and evaluation; useful AI applications." width="100%" />
-
-<br />
-
 <a name="projects"></a>
 
 <table>
