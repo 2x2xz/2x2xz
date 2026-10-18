@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title">
-  <title id="title">Focus: AI agents, sleep and health, applied machine learning</title>
+  <title id="title">Focus: AI agents, machine learning, AI applications</title>
   <style>.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}</style>
   <rect x="1" y="1" width="1198" height="178" rx="0" fill="#11172a" stroke="#49395f"/>
   <path d="M400 25v130m400-130v130" stroke="#49395f"/>
-  <g class="m" font-size="12" fill="#a8f0cc" letter-spacing="1.5"><text x="30" y="38">01 / AGENT QUEST</text><text x="430" y="38" fill="#a9b4ff">02 / HEALTH QUEST</text><text x="830" y="38" fill="#8ad7ff">03 / BUILD QUEST</text></g>
-  <g class="s" font-size="25" fill="#ecf2ff" font-weight="650"><text x="30" y="81">Tools. Context. Action.</text><text x="430" y="81">Make records useful.</text><text x="830" y="81">Build, test, improve.</text></g>
-  <g class="s" font-size="16" fill="#a6b4ce"><text x="30" y="119">Tool use · Retrieval · Memory</text><text x="30" y="145">让模型通过工具，完成真实任务。</text><text x="430" y="119">Time series · Reports · Evidence</text><text x="430" y="145">让记录、分析与有来源的解释相连。</text><text x="830" y="119">Python · Evaluation · Interfaces</text><text x="830" y="145">从可验证的实现，到可以使用的产品。</text></g>
+  <g class="m" font-size="12" fill="#a8f0cc" letter-spacing="1.5"><text x="30" y="38">01 / AGENT QUEST</text><text x="430" y="38" fill="#a9b4ff">02 / LEARNING QUEST</text><text x="830" y="38" fill="#8ad7ff">03 / BUILD QUEST</text></g>
+  <g class="s" font-size="25" fill="#ecf2ff" font-weight="650"><text x="30" y="81">Tools. Context. Action.</text><text x="430" y="81">Learn. Evaluate. Refine.</text><text x="830" y="81">Build, test, improve.</text></g>
+  <g class="s" font-size="16" fill="#a6b4ce"><text x="30" y="119">Tool use · Retrieval · Memory</text><text x="30" y="145">让模型通过工具，完成真实任务。</text><text x="430" y="119">Models · Data · Evaluation</text><text x="430" y="145">用数据与实验，检验模型的实际表现。</text><text x="830" y="119">Tools · Interfaces · Products</text><text x="830" y="145">把模型能力做成可以使用的产品。</text></g>
 </svg>
