@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Xiuze Zhu 的像素实验室：漂浮的机器人、闪烁星空与像素终端。AI agents / Machine learning / AI products." width="100%" />
+  <img src="assets/header.svg" alt="Leo 的像素实验室：漂浮的机器人、闪烁星空与像素终端。AI agents / Machine learning / AI products." width="100%" />
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
   <a href="https://github.com/2x2xz?tab=repositories">Repositories</a>
 </p>
 
-### `> player.info` &nbsp; Hi, I'm Xiuze 👾
+### `> player.info` &nbsp; Hi, I'm Leo 👾
 
 我关注 **AI Agent、机器学习与智能应用开发**，喜欢探索模型如何使用工具、理解数据、完成任务，并把想法做成能够实际使用的产品。
 
