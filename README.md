@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Leo 的像素实验室：漂浮的机器人、闪烁星空与像素终端。AI agents / Machine learning / AI products." width="100%" />
+  <img src="assets/header.svg?v=2" alt="Leo 的像素实验室：漂浮的机器人、闪烁星空与像素终端。AI agents / Machine learning / AI products." width="100%" />
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ I'm interested in AI agents, machine learning, and AI-powered applications — e
 
 <br />
 
-<img src="assets/focus.svg" alt="Focus: AI agents with tools, retrieval and memory; machine learning and evaluation; useful AI applications." width="100%" />
+<img src="assets/focus.svg?v=2" alt="Focus: AI agents with tools, retrieval and memory; machine learning and evaluation; useful AI applications." width="100%" />
 
 <br />
 
