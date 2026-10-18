@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="#-questshowcase--近期作品"><b>Explore my work ↗</b></a>
+  <a href="#projects"><b>Explore my work ↗</b></a>
   &nbsp;&nbsp; / &nbsp;&nbsp;
   <a href="https://github.com/2x2xz?tab=repositories">Repositories</a>
 </p>
@@ -24,7 +24,7 @@ I'm interested in AI agents, machine learning, and AI-powered applications — e
 
 <br />
 
-### `> quest.showcase` &nbsp; 近期作品
+<a name="projects"></a>
 
 <table>
   <tr>
@@ -61,8 +61,6 @@ I'm interested in AI agents, machine learning, and AI-powered applications — e
 </table>
 
 <br />
-
-### `> snake.run` &nbsp; 吃掉每一格努力
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake-dark.svg?v=1" />
