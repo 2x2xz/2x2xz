@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/2x2xz/2x2xz/9c085e04117715c595c1a3c8b0ad81b3c952535c/assets/header.svg" alt="Leo 的像素实验室：漂浮的机器人、闪烁星空与像素终端。AI agents / Machine learning / AI products." width="100%" />
+  <img src="assets/header-topics.svg" alt="Leo 的像素实验室：漂浮的机器人、闪烁星空与像素终端。AI agents / Machine learning / AI products；Algorithms / LLMs / Time Series." width="100%" />
 </p>
 
 <p align="center">
@@ -15,10 +15,6 @@
 我关注 **AI Agent、机器学习与智能应用开发**，喜欢探索模型如何使用工具、理解数据、完成任务，并把想法做成能够实际使用的产品。
 
 I'm interested in AI agents, machine learning, and AI-powered applications — exploring how models use tools, work with data, and turn ideas into useful products.
-
-<p>
-  <code>Python</code> &nbsp; <code>LangGraph</code> &nbsp; <code>Retrieval</code> &nbsp; <code>SQLite</code> &nbsp; <code>Evaluation</code>
-</p>
 
 <br />
 
