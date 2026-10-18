@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/2x2xz/MediHealth-Agent"><b>Explore my work ↗</b></a>
+  <a href="#-questshowcase--近期作品"><b>Explore my work ↗</b></a>
   &nbsp;&nbsp; / &nbsp;&nbsp;
   <a href="https://github.com/2x2xz?tab=repositories">Repositories</a>
 </p>
@@ -25,6 +25,20 @@ I'm interested in AI agents, machine learning, and AI-powered applications — e
 <br />
 
 ### `> quest.showcase` &nbsp; 近期作品
+
+<table>
+  <tr>
+    <td>
+      <h3>▣ &nbsp; StayAgent-RL</h3>
+      <p><b>让小模型学会多步工具决策。</b></p>
+      <p>以住宿预订为任务场景，搭建 Baseline → LoRA SFT → Online GRPO → Evaluation 流程，研究模型如何通过搜索、核验与反馈完成长链路任务。</p>
+      <p><code>Qwen3.5-2B</code> <code>LoRA SFT</code> <code>veRL</code> <code>vLLM</code></p>
+      <p><a href="https://github.com/2x2xz/2x2xz/blob/main/projects/stayagent.md"><b>了解项目与训练流程 →</b></a></p>
+    </td>
+  </tr>
+</table>
+
+<br />
 
 <table>
   <tr>
