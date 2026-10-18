@@ -20,20 +20,14 @@ I'm interested in AI agents, machine learning, and AI-powered applications — e
 
 <br />
 
-<table width="100%">
-  <tr>
-    <td width="65%" valign="top">
-      <h3>🎓 Education</h3>
-      <p><b>慕尼黑大学</b><br />本科 · 统计学</p>
-      <p><b>香港大学</b><br />硕士 · 人工智能</p>
-    </td>
-    <td width="35%" valign="top">
-      <h3>Beyond code</h3>
-      <p>🏀 篮球</p>
-      <p>⛷️ 滑雪</p>
-    </td>
-  </tr>
-</table>
+### 🎓 Education
+
+**慕尼黑大学** · 本科 · 统计学  
+**香港大学** · 硕士 · 人工智能
+
+### ✨ Beyond code
+
+🏀 篮球 &nbsp; · &nbsp; ⛷️ 滑雪
 
 <br />
 
