@@ -33,7 +33,11 @@ I'm interested in AI agents, machine learning, and AI-powered applications — e
       <p><b>让小模型学会多步工具决策。</b></p>
       <p>以住宿预订为任务场景，搭建 Baseline → LoRA SFT → Online GRPO → Evaluation 流程，研究模型如何通过搜索、核验与反馈完成长链路任务。</p>
       <p><code>Qwen3.5-2B</code> <code>LoRA SFT</code> <code>veRL</code> <code>vLLM</code></p>
-      <p><a href="https://github.com/2x2xz/2x2xz/blob/main/projects/stayagent.md"><b>了解项目与训练流程 →</b></a></p>
+      <a href="https://github.com/2x2xz/2x2xz/blob/main/projects/stayagent.md">
+        <img src="assets/stayagent-demo.gif" alt="StayAgent 已有工具轨迹的住宿界面重放：搜索、核验与模拟预订；不是实时模型推理或真实预订。" width="100%" />
+      </a>
+      <p><sub>已有轨迹重放 · 模拟预订 · 非实时模型推理</sub></p>
+      <p><a href="https://github.com/2x2xz/2x2xz/blob/main/projects/stayagent.md"><b>了解项目与训练流程 →</b></a> &nbsp; · &nbsp; <a href="https://github.com/2x2xz/2x2xz/blob/main/assets/stayagent-demo.png">静态演示</a></p>
     </td>
   </tr>
 </table>

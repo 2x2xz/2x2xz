@@ -6,6 +6,10 @@ StayAgent-RL 以住宿预订为任务场景，围绕 **Baseline → LoRA SFT →
 
 `Qwen3.5-2B` · `LoRA SFT` · `veRL` · `vLLM` · `StaySimulator`
 
+![StayAgent 住宿搜索、条件核验与模拟预订演示](../assets/stayagent-demo.gif)
+
+已有工具动作的环境重放与界面呈现；不是实时模型推理，也不连接真实预订或支付服务。[查看静态画面](../assets/stayagent-demo.png)
+
 ## 一个任务如何完成
 
 给定入住日期、人数、预算、房型与设施要求，Agent 只能读取当前工具返回的信息，不能直接访问完整数据库或目标答案。
@@ -35,6 +39,6 @@ StayAgent-RL 以住宿预订为任务场景，围绕 **Baseline → LoRA SFT →
 
 训练与实验骨架基于 [shopping-grpo-longhorizon](https://github.com/YYHDBL/shopping-grpo-longhorizon) 适配，原始基线提交为 `4ed73020e1d7d07eb93e7375a4606b0901d3cded`。StayAgent 的工作包括住宿数据与任务、模拟环境、预订工具与奖励、训练适配及评测诊断。
 
-本页公开项目介绍，完整代码仓库目前保持私有。
+本页公开项目介绍与演示素材，完整代码仓库目前保持私有。
 
 [← 返回 Leo 的主页](https://github.com/2x2xz)
