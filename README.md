@@ -20,7 +20,7 @@ I'm interested in AI agents, machine learning, and AI-powered applications — e
 
 <br />
 
-<table>
+<table width="100%">
   <tr>
     <td width="65%" valign="top">
       <h3>🎓 Education</h3>
