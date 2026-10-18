@@ -47,9 +47,9 @@ I'm interested in AI agents, sleep & health, and applied machine learning — co
 ### `> snake.run` &nbsp; 吃掉每一格努力
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake.svg" />
-  <img alt="根据 2x2xz 的 GitHub 贡献日历生成的贪吃蛇动画，每天自动更新。" src="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake-dark.svg?v=1" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake.svg?v=1" />
+  <img alt="根据 2x2xz 的 GitHub 贡献日历生成的贪吃蛇动画，每天自动更新。" src="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake.svg?v=1" width="100%" />
 </picture>
 
 <p align="center"><sub>GitHub 贡献日历 · 每日自动更新 · <a href="https://github.com/Platane/snk">powered by snk</a></sub></p>
