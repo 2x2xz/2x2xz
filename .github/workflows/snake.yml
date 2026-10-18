@@ -1,0 +1,71 @@
+name: Update contribution snake
+
+on:
+  schedule:
+    - cron: '23 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/snake.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate animated contribution calendar
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=%238966c4
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23c5a3ff&color_dots=%231c2033,%2328463e,%233b7655,%235ca776,%2380f7bf
+
+      - name: Publish SVGs to the output branch
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        with:
+          script: |
+            const fs = require('fs');
+            const { owner, repo } = context.repo;
+            const files = ['github-snake.svg', 'github-snake-dark.svg'];
+            let previous;
+            try {
+              const ref = await github.rest.git.getRef({ owner, repo, ref: 'heads/output' });
+              previous = ref.data.object.sha;
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
+            const tree = await github.rest.git.createTree({
+              owner, repo,
+              tree: files.map(path => ({
+                path, mode: '100644', type: 'blob',
+                content: fs.readFileSync(`dist/${path}`, 'utf8')
+              }))
+            });
+            if (previous) {
+              const old = await github.rest.git.getCommit({ owner, repo, commit_sha: previous });
+              if (old.data.tree.sha === tree.data.sha) {
+                core.info('Contribution calendar is unchanged.');
+                return;
+              }
+            }
+            const commit = await github.rest.git.createCommit({
+              owner, repo, message: 'Update contribution snake',
+              tree: tree.data.sha, parents: previous ? [previous] : []
+            });
+            if (previous) {
+              await github.rest.git.updateRef({
+                owner, repo, ref: 'heads/output', sha: commit.data.sha, force: false
+              });
+            } else {
+              await github.rest.git.createRef({
+                owner, repo, ref: 'refs/heads/output', sha: commit.data.sha
+              });
+            }
