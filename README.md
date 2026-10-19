@@ -6,13 +6,11 @@
 
 ### Hey, I'm Leo 👾
 
-**I build AI agents — from training small models to making things people can actually use.**
+**Interested in AI Agents, LLM Post-training & AI Applications.**
 
 </div>
 
-平时喜欢折腾两个问题：**模型能不能真的把任务做完？做出来的东西，会有人愿意用吗？**
-
-所以最近一边研究 Agent 怎么调用工具、怎么在长任务里少犯错，一边把想法做成自己也用得上的小产品。写代码、跑实验、改界面，偶尔发现最大的 bug 就藏在「这应该很简单」的那一步。
+关注 **AI Agent、模型后训练、机器学习和 AI 应用开发**。
 
 🎓 **MSc in AI @ HKU** · **BSc in Statistics & Data Science @ LMU Munich**
 
@@ -43,7 +41,7 @@
         <img src="https://raw.githubusercontent.com/2x2xz/MediHealth-Agent/main/docs/assets/showcase-desktop.png" alt="MediHealth Agent 睡眠记录和报告工作区" width="100%" />
       </a>
       <h3>🌙 <a href="https://github.com/2x2xz/MediHealth-Agent">MediHealth Agent</a></h3>
-      <p><strong>睡眠报告，不应该像阅读理解题。</strong></p>
+      <p><strong>让睡眠数据更好懂，也更容易用起来。</strong></p>
       <p>给普通人做的睡眠助手：把每天的记录、整夜报告和有来源的解释放到同一个工作区。在完整 Agent 模式下，还能围绕数据继续提问。</p>
       <p><sub>LangGraph · Tools & Skills · Retrieval · SQLite</sub></p>
       <p><a href="https://github.com/2x2xz/MediHealth-Agent">See the project →</a></p>
@@ -62,12 +60,6 @@
 </table>
 
 ---
-
-### A bit more about me
-
-我喜欢能自己探索世界的游戏，也喜欢研究未来的 NPC 能不能不再只按脚本说话。
-
-平时除了 AI 和代码，还会打篮球、滑雪。🏀 ⛷️
 
 <p align="center">
   <a href="https://github.com/2x2xz?tab=repositories">More repositories ↗</a>
