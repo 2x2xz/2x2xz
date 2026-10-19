@@ -16,21 +16,27 @@
 
 <sub>AI Agents · LLM Post-training · Applied ML · AI Products</sub>
 
+[OfferFlash ↗](https://github.com/2x2xz/OfferFlash) · [MediHealth-Agent ↗](https://github.com/2x2xz/MediHealth-Agent) · [StayAgent-RL ↗](https://github.com/2x2xz/StayAgent-RL)
+
 ---
 
 ## 🎮 Things I've been building
 
-### ⚡ OfferFlash — 网申不要再填第十遍了
+### [⚡ OfferFlash — 网申不要再填第十遍了](https://github.com/2x2xz/OfferFlash)
 
 **AI Product · Desktop Agent · Browser Automation**
 
 秋招时发现，每换一家招聘网站，就得把学校、实习、项目重新填一遍。于是做了一个桌面 Agent：整理简历、在招聘网页上辅助填表，顺手记录投递到了哪一步。
 
-最有意思的不是让模型生成答案，而是让它在**真实、会变化的网页上把动作做对，然后再检查一遍**。
+通过 **Pi SDK 会话、BrowserController 与写入前后核验**连接模型决策和网页执行，简历资料、岗位及申请记录保存在本机 SQLite。
 
-<sub>Electron · React · TypeScript · Pi SDK · BrowserController</sub>
+<sub>Electron · React · TypeScript · Pi SDK · BrowserController · SQLite</sub>
 
-<sub>目前是私有作品集项目，暂不提供公开源码链接。</sub>
+[查看源码 →](https://github.com/2x2xz/OfferFlash) · [技术设计](https://github.com/2x2xz/OfferFlash/blob/main/docs/architecture.md)
+
+<a href="https://github.com/2x2xz/OfferFlash"><img src="https://raw.githubusercontent.com/2x2xz/OfferFlash/main/docs/screenshots/showcase/offerflash-apply.png" alt="OfferFlash 申请工作区静态界面：真实应用、虚构资料，截图来自规则填写录制。" width="100%" /></a>
+
+<sub>真实应用界面 · 虚构资料 · 静态图来自规则填写录制</sub>
 
 <br />
 
@@ -43,7 +49,7 @@
       <h3>🌙 <a href="https://github.com/2x2xz/MediHealth-Agent">MediHealth Agent</a></h3>
       <p><strong>让睡眠数据更好懂，也更容易用起来。</strong></p>
       <p>给普通人做的睡眠助手：把每天的记录、整夜报告和有来源的解释放到同一个工作区。在完整 Agent 模式下，还能围绕数据继续提问。</p>
-      <p><sub>LangGraph · Tools & Skills · Retrieval · SQLite</sub></p>
+      <p><sub>LangGraph · Skills-Agent · RAG · SQLite Checkpoint</sub></p>
       <p><a href="https://github.com/2x2xz/MediHealth-Agent">See the project →</a></p>
     </td>
     <td width="50%" valign="top">
@@ -51,8 +57,8 @@
         <img src="https://raw.githubusercontent.com/2x2xz/StayAgent-RL/main/docs/assets/booking-demo.png" alt="StayAgent-RL 住宿预订模拟演示" width="100%" />
       </a>
       <h3>🏨 <a href="https://github.com/2x2xz/StayAgent-RL">StayAgent-RL</a></h3>
-      <p><strong>一个 2B 模型，能独立完成多少步工具操作？</strong></p>
-      <p>搭了 StaySimulator，让 Qwen3.5-2B 练习搜房、核验条件、模拟预订；再用 LoRA SFT 和 Online GRPO 训练，记录它变好的地方和仍然会犯的错。</p>
+      <p><strong>2B 模型的 SFT 与在线强化学习实验。</strong></p>
+      <p>基于 Qwen3.5-2B 和 veRL / vLLM，串起 Teacher 轨迹筛选、LoRA SFT、Online GRPO 与统一评测，围绕终局 Reward、终止动作适配和 Context Compaction 做实验与失败诊断。</p>
       <p><sub>Qwen3.5-2B · LoRA SFT · GRPO · veRL / vLLM</sub></p>
       <p><a href="https://github.com/2x2xz/StayAgent-RL">See the experiment →</a></p>
     </td>
