@@ -1,74 +1,86 @@
 <p align="center">
-  <img src="assets/header-topics.svg" alt="Leo 的像素实验室：漂浮的机器人、闪烁星空与像素终端。AI agents / Machine learning / AI products；Algorithms / LLMs / Time Series." width="100%" />
+  <img src="assets/header-topics.svg" alt="Leo's Pixel Lab — pixel robot, terminal, and experiments in AI" width="100%" />
 </p>
+
+<div align="center">
+
+### Hey, I'm Leo 👾
+
+**I build AI agents — from training small models to making things people can actually use.**
+
+</div>
+
+平时喜欢折腾两个问题：**模型能不能真的把任务做完？做出来的东西，会有人愿意用吗？**
+
+所以最近一边研究 Agent 怎么调用工具、怎么在长任务里少犯错，一边把想法做成自己也用得上的小产品。写代码、跑实验、改界面，偶尔发现最大的 bug 就藏在「这应该很简单」的那一步。
+
+🎓 **MSc in AI @ HKU** · **BSc in Statistics & Data Science @ LMU Munich**
+
+<sub>AI Agents · LLM Post-training · Applied ML · AI Products</sub>
+
+---
+
+## 🎮 Things I've been building
+
+### ⚡ OfferFlash — 网申不要再填第十遍了
+
+**AI Product · Desktop Agent · Browser Automation**
+
+秋招时发现，每换一家招聘网站，就得把学校、实习、项目重新填一遍。于是做了一个桌面 Agent：整理简历、在招聘网页上辅助填表，顺手记录投递到了哪一步。
+
+最有意思的不是让模型生成答案，而是让它在**真实、会变化的网页上把动作做对，然后再检查一遍**。
+
+<sub>Electron · React · TypeScript · Pi SDK · BrowserController</sub>
+
+<sub>目前是私有作品集项目，暂不提供公开源码链接。</sub>
+
+<br />
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/2x2xz/MediHealth-Agent">
+        <img src="https://raw.githubusercontent.com/2x2xz/MediHealth-Agent/main/docs/assets/showcase-desktop.png" alt="MediHealth Agent 睡眠记录和报告工作区" width="100%" />
+      </a>
+      <h3>🌙 <a href="https://github.com/2x2xz/MediHealth-Agent">MediHealth Agent</a></h3>
+      <p><strong>睡眠报告，不应该像阅读理解题。</strong></p>
+      <p>给普通人做的睡眠助手：把每天的记录、整夜报告和有来源的解释放到同一个工作区。在完整 Agent 模式下，还能围绕数据继续提问。</p>
+      <p><sub>LangGraph · Tools & Skills · Retrieval · SQLite</sub></p>
+      <p><a href="https://github.com/2x2xz/MediHealth-Agent">See the project →</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/2x2xz/StayAgent-RL">
+        <img src="https://raw.githubusercontent.com/2x2xz/StayAgent-RL/main/docs/assets/booking-demo.png" alt="StayAgent-RL 住宿预订模拟演示" width="100%" />
+      </a>
+      <h3>🏨 <a href="https://github.com/2x2xz/StayAgent-RL">StayAgent-RL</a></h3>
+      <p><strong>一个 2B 模型，能独立完成多少步工具操作？</strong></p>
+      <p>搭了 StaySimulator，让 Qwen3.5-2B 练习搜房、核验条件、模拟预订；再用 LoRA SFT 和 Online GRPO 训练，记录它变好的地方和仍然会犯的错。</p>
+      <p><sub>Qwen3.5-2B · LoRA SFT · GRPO · veRL / vLLM</sub></p>
+      <p><a href="https://github.com/2x2xz/StayAgent-RL">See the experiment →</a></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### A bit more about me
+
+我喜欢能自己探索世界的游戏，也喜欢研究未来的 NPC 能不能不再只按脚本说话。
+
+平时除了 AI 和代码，还会打篮球、滑雪。🏀 ⛷️
 
 <p align="center">
-  <a href="https://github.com/2x2xz/StayAgent-RL">StayAgent-RL ↗</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/2x2xz/MediHealth-Agent">MediHealth-Agent ↗</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/2x2xz?tab=repositories">All repositories</a>
+  <a href="https://github.com/2x2xz?tab=repositories">More repositories ↗</a>
 </p>
-
-### Hi, I'm Leo 👾
-
-我关注 **AI Agent、机器学习与智能应用开发**，喜欢探索模型如何使用工具、理解数据、完成任务，并把想法做成能够实际使用的产品。
-
-I'm interested in AI agents, machine learning, and AI-powered applications — exploring how models use tools, work with data, and turn ideas into useful products.
-
-<br />
-
-### 🎓 Education
-
-**慕尼黑大学** · 本科 · 统计学与数据科学  
-**香港大学** · 硕士 · 人工智能
-
-### ✨ Beyond code
-
-🏀 篮球 &nbsp; · &nbsp; ⛷️ 滑雪
-
-<br />
-
-<a name="projects"></a>
-
-### [StayAgent-RL ↗](https://github.com/2x2xz/StayAgent-RL)
-
-基于 **Qwen3.5-2B 与 veRL / vLLM** 搭建 **Baseline → LoRA SFT → Online GRPO** 后训练链路，面向 **Long-Horizon Tool Use** 中的多约束决策与稀疏终局奖励。
-
-围绕 **Teacher 轨迹筛选、StaySimulator 多轮交互、Reward 与终止路由适配** 构建训练和评测流程，通过失败轨迹诊断与 **Context Compaction** 优化长任务执行。
-
-<code>LoRA SFT</code> &nbsp; <code>Online GRPO</code> &nbsp; <code>veRL / vLLM</code> &nbsp; <code>Context Compaction</code>
-
-[查看仓库 →](https://github.com/2x2xz/StayAgent-RL) &nbsp; · &nbsp; [实验结果](https://github.com/2x2xz/StayAgent-RL/blob/main/docs/results.md)
-
-<br />
-
-### [MediHealth Agent ↗](https://github.com/2x2xz/MediHealth-Agent)
-
-基于 **LangGraph** 构建 **Skills-Agent**，通过 **Skills 渐进加载、Model–Tool–Result / ReAct 循环与 Agent Swarm** 组织工具调用、多模态分析和复杂任务协作。
-
-结合 **SQLite Checkpoint 与长期记忆、Qwen3-Embedding + BM25 fallback 检索、PSG / AHI 模型接入**，支持健康记录与报告分析。以 **Tool Schema、Skill 权限与能力边界** 约束执行，并用 **Trajectory Evaluation、OpenTelemetry** 做评测和观测。
-
-<code>Skills-Agent</code> &nbsp; <code>RAG</code> &nbsp; <code>Long-term Memory</code> &nbsp; <code>Harness Engineering</code>
-
-<a href="https://github.com/2x2xz/MediHealth-Agent">
-  <img src="https://raw.githubusercontent.com/2x2xz/MediHealth-Agent/main/docs/assets/showcase-desktop.png" alt="MediHealth 本地工作区静态界面；合成示例，无模型推理。" width="100%" />
-</a>
-
-<sub>静态界面 · 合成示例 · 无模型推理</sub>
-
-[查看仓库 →](https://github.com/2x2xz/MediHealth-Agent) &nbsp; · &nbsp; [运行说明](https://github.com/2x2xz/MediHealth-Agent/blob/main/docs/reproduction.md)
 
 <br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake-dark.svg?v=1" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake.svg?v=1" />
-  <img alt="根据 2x2xz 的 GitHub 贡献日历生成的贪吃蛇动画，每天自动更新。" src="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake.svg?v=1" width="100%" />
+  <img alt="Pixel snake animation across GitHub contributions" src="https://raw.githubusercontent.com/2x2xz/2x2xz/output/github-snake.svg?v=1" width="100%" />
 </picture>
 
-<p align="center"><sub>GitHub 贡献日历 · 每日自动更新 · <a href="https://github.com/Platane/snk">powered by snk</a></sub></p>
-
-<br />
+<p align="center"><sub>GitHub contribution snake · <a href="https://github.com/Platane/snk">powered by snk</a></sub></p>
 
 <p align="center"><samp>+ keep exploring. keep building. +</samp></p>
