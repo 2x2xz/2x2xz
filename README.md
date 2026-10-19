@@ -34,9 +34,9 @@
 
 [查看源码 →](https://github.com/2x2xz/OfferFlash) · [技术设计](https://github.com/2x2xz/OfferFlash/blob/main/docs/architecture.md)
 
-<a href="https://github.com/2x2xz/OfferFlash"><img src="https://raw.githubusercontent.com/2x2xz/OfferFlash/main/docs/screenshots/showcase/offerflash-apply.png" alt="OfferFlash 申请工作区静态界面：真实应用、虚构资料，截图来自规则填写录制。" width="100%" /></a>
+<a href="https://github.com/2x2xz/OfferFlash"><img src="https://raw.githubusercontent.com/2x2xz/OfferFlash/main/docs/screenshots/offerflash-workspace-autofill.gif" alt="OfferFlash 在实际企业网申页面中识别并填写经历字段：真实页面、虚构资料，4× 速预览，未提交申请。" width="100%" /></a>
 
-<sub>真实应用界面 · 虚构资料 · 静态图来自规则填写录制</sub>
+<sub>实际网申页面 · 虚构资料 · 4× 速预览 · 未提交申请</sub>
 
 <br />
 
