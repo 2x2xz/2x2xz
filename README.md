@@ -16,7 +16,7 @@
 
 <sub>AI Agents · LLM Post-training · Applied ML · AI Products</sub>
 
-[OfferFlash ↗](https://github.com/2x2xz/OfferFlash) · [MediHealth-Agent ↗](https://github.com/2x2xz/MediHealth-Agent) · [StayAgent-RL ↗](https://github.com/2x2xz/StayAgent-RL)
+[OfferFlash ↗](https://github.com/2x2xz/OfferFlash)
 
 ---
 
@@ -43,24 +43,20 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/2x2xz/MediHealth-Agent">
-        <img src="https://raw.githubusercontent.com/2x2xz/MediHealth-Agent/main/docs/assets/showcase-desktop.png" alt="MediHealth Agent 睡眠记录和报告工作区" width="100%" />
-      </a>
-      <h3>🌙 <a href="https://github.com/2x2xz/MediHealth-Agent">MediHealth Agent</a></h3>
+      <img src="assets/medihealth-showcase.png" alt="MediHealth Agent 睡眠记录和报告工作区" width="100%" />
+      <h3>🌙 MediHealth Agent</h3>
       <p><strong>让睡眠数据更好懂，也更容易用起来。</strong></p>
       <p>给普通人做的睡眠助手：把每天的记录、整夜报告和有来源的解释放到同一个工作区。在完整 Agent 模式下，还能围绕数据继续提问。</p>
       <p><sub>LangGraph · Skills-Agent · RAG · SQLite Checkpoint</sub></p>
-      <p><a href="https://github.com/2x2xz/MediHealth-Agent">See the project →</a></p>
+      
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/2x2xz/StayAgent-RL">
-        <img src="https://raw.githubusercontent.com/2x2xz/StayAgent-RL/main/docs/assets/booking-demo.png" alt="StayAgent-RL 住宿预订模拟演示" width="100%" />
-      </a>
-      <h3>🏨 <a href="https://github.com/2x2xz/StayAgent-RL">StayAgent-RL</a></h3>
+      <img src="assets/stayagent-demo.png" alt="StayAgent-RL 住宿预订模拟演示" width="100%" />
+      <h3>🏨 StayAgent-RL</h3>
       <p><strong>2B 模型的 SFT 与在线强化学习实验。</strong></p>
       <p>基于 Qwen3.5-2B 和 veRL / vLLM，串起 Teacher 轨迹筛选、LoRA SFT、Online GRPO 与统一评测，围绕终局 Reward、终止动作适配和 Context Compaction 做实验与失败诊断。</p>
       <p><sub>Qwen3.5-2B · LoRA SFT · GRPO · veRL / vLLM</sub></p>
-      <p><a href="https://github.com/2x2xz/StayAgent-RL">See the experiment →</a></p>
+      
     </td>
   </tr>
 </table>
